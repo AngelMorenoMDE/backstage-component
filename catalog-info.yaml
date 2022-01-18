@@ -2,9 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-component
-  description: The place to be, for great artists
+  annotations:
+    github.com/project-slug: AngelMorenoMDE/backstage-component
 spec:
-  type: service
-  lifecycle: experimental
-  owner: arquitectura-empresarial-team
-  system: arquitectura-empresarial
+  type: other
+  lifecycle: unknown
